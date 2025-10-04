@@ -1,3 +1,5 @@
+#pragmaGCCoptimize("Ofast")
+#pragmaGCCtarget("avx,avx2,fma,popcnt")
 #include <bits/stdc++.h>
 using namespace std;
 
