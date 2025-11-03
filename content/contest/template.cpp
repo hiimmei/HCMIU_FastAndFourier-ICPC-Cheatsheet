@@ -1,5 +1,7 @@
-#pragmaGCCoptimize("Ofast")
-#pragmaGCCtarget("avx,avx2,fma,popcnt")
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2,bmi,bmi2,lzcnt,popcnt")
+#pragma GCC optimize("Ofast")
+#pragma GCC target("avx,avx2,fma,popcnt")
 #include <bits/stdc++.h>
 using namespace std;
 
