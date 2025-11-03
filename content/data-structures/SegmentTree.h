@@ -1,3 +1,12 @@
+/**
+ Description: Zero-indexed max-tree. Bounds are inclusive to the left and exclusive to the right.
+ * Can be changed by modifying T, f and unit.
+ * Time: O(\log N) 
+  * Status: Stress-tested
+  */
+
+#pragma once
+
 //t[v] la tong cac phan tu tu chi so l toi r
 void build(int v, int l, int r){
     if(l == r){
